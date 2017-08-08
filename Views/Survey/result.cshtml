@@ -2,9 +2,11 @@
 <html lang='en'>
 <head>
     <title>Dojo Survey Result</title>
-        <meta description=''
+        <meta description='Dojo Survey Results Page'>
     <meta charset='utf-8'/>
     <link rel='stylesheet' type='text/css' href='~/css/styles.css'>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='~/js/results.js'></script>
 </head>
 <body>
     <div id='wrapper'>
@@ -23,9 +25,7 @@
                 <p>@ViewBag.language</p>
                 <p>@ViewBag.comments</p>
             </div>
-            <div id="gobackbutton">
-                <button type="submit" value="Go Back" onclick="location.href='/'">Go Back</button>
-            </div>
+            <button type="submit" id="gobackbutton" value="Button">Go Back</button>
         </div>
     </div>
 </body>
