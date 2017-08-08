@@ -9,8 +9,7 @@
 <body>
     <div id='wrapper'>
         <h1>Dojo Survey</h1><br>
-        <form id="userform">
-            
+        <form id="userform" action="userformsubmit" method="post">
             <div id="formlabels">
                 <label for="name">Your Name:</label><br>
                 <label for="location">Dojo Location:</label><br>
@@ -39,7 +38,7 @@
                 </select><br>
                 <textarea name="comments" id="comments" cols="60" rows="4"></textarea>
             </div>
-            <input type="button" id="button" value="Button">
+            <button type="submit" id="button" value="Button">Button</button>
         </form>
     </div>
 </body>

@@ -56,3 +56,28 @@ footer {
     background-color: lightblue;
     font-weight: bold;
 }
+/***************************************************/
+/*     RESULTS  CSS                                    */
+/***************************************************/
+#resultheader {
+    display: inline-block;
+    
+}
+
+#resultslables {
+    display: inline-block;
+    width: 200px;
+
+}
+
+#resultfields {
+    display: inline-block;
+    width: 200px;
+
+}
+
+#gobackbutton {
+    position: relative;
+    top: 50px; 
+    left: 200px;
+}
